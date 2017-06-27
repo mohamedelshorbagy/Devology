@@ -19,9 +19,7 @@ function setup() {
   // noStroke();
   // text('train', 100, 200);
 
-  var points = font.textToPoints('Devology', 250, 200, 192, {
-    sampleFactor: 0.25
-  });
+  var points = font.textToPoints('Devology', 250, 200, 192);
 
   for (var i = 0; i < points.length; i++) {
     var pt = points[i];
